@@ -1,0 +1,64 @@
+---
+output: html_document
+pagetitle: Club de lectura de RLadies México 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, size = 3)
+library(tidyverse)
+library(kableExtra)
+library(googlesheets4)
+library(lubridate)
+
+mytable <- function(df){
+  kable(df) %>%
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"),
+                full_width = F,
+                font_size = 12)}
+```
+
+## De qué trata &#x1F4DA; &#x1f1f3;&#x1f1f1;!!
+
+Varios capítulos de R-Ladies en México nos unimos para organizar un club de lectura.
+
+Leeremos el libro [**Advanced R**](https://adv-r.hadley.nz/) de Hadley Wickham.
+
+### Qué esperar?
+En cada sesión:
+
+- Tendremos presentaciones en las que se destacan los puntos importantes de cada capítulo.
+
+- Resolveremos ejercicios del capítulo.
+  
+-Discutiremos y aclararemos dudas.
+   
+### Cuándo?
+
+Los eventos serán cada dos semanas los jueves a las 6:30 pm. 
+
+### Calendario de actividades
+
+```{r, include = FALSE}
+
+url <- ("https://docs.google.com/spreadsheets/d/1kIHCa9IjDwmnVcykW12t73Nb7xwb_YJcxXVzi-GlKJw/edit#gid=0") 
+gs4_deauth()
+
+data <- read_sheet(url)
+data %>% 
+  select(Capítulo, Título, Descripción, Presenta, Fecha, Anfitrión, Slides)
+
+```
+
+```{r, echo=FALSE}
+data %>% 
+filter(!is.na(Presenta)) %>% 
+  mytable() %>% 
+  row_spec(0, bold = T, color = " white", background = "#562457")
+```
+
+Inscríbete para presentar [**aquí**](https://docs.google.com/spreadsheets/d/1KY4rK6Ky8jJIW4czZMkGxpR9v0Le169ibcGxXdRK_zc/edit?usp=sharing)
+<a href="https://github.com/RLadiesMX/club-lectura-advr"> </i>&nbsp; </a><br>
+
+<img src="R-LadiesGlobal_RBG_online_LogoWithText_Horizontal.png" width="300" height="100" />
+
+
