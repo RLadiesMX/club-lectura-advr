@@ -181,7 +181,7 @@ NA
 </table>
 
 Inscríbete para presentar
-[**aquí**](https://docs.google.com/spreadsheets/d/1KY4rK6Ky8jJIW4czZMkGxpR9v0Le169ibcGxXdRK_zc/edit?usp=sharing)
+[**aquí**](https://docs.google.com/spreadsheets/d/1kIHCa9IjDwmnVcykW12t73Nb7xwb_YJcxXVzi-GlKJw/edit#gid=0)
 
 <a href="https://github.com/RLadiesMX/club-lectura-advr"> </i>  </a><br>
 
