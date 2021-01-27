@@ -1,5 +1,5 @@
 
-## De qué trata 📚 🇳🇱\!\!
+## De qué trata 📚 🇲🇽\!\!
 
 Varios capítulos de R-Ladies en México nos unimos para organizar un club
 de lectura.
