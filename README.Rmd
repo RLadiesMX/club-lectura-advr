@@ -19,13 +19,13 @@ mytable <- function(df){
                 font_size = 12)}
 ```
 
-## De qué trata &#x1F4DA; &#x1f1f3;&#x1f1f1;!!
+## De qué trata 📚 🇲🇽\!\!
 
 Varios capítulos de R-Ladies en México nos unimos para organizar un club de lectura.
 
 Leeremos el libro [**Advanced R**](https://adv-r.hadley.nz/) de Hadley Wickham.
 
-### Qué esperar?
+### ¿Qué esperar?
 En cada sesión:
 
 - Tendremos presentaciones en las que se destacan los puntos importantes de cada capítulo.
@@ -34,7 +34,7 @@ En cada sesión:
   
 -Discutiremos y aclararemos dudas.
    
-### Cuándo?
+### ¿Cuándo?
 
 Los eventos serán cada dos semanas los jueves a las 6:30 pm. 
 

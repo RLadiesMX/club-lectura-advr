@@ -7,7 +7,7 @@ de lectura.
 Leeremos el libro [**Advanced R**](https://adv-r.hadley.nz/) de Hadley
 Wickham.
 
-### Qué esperar?
+### ¿Qué esperar?
 
 En cada sesión:
 
@@ -18,7 +18,7 @@ En cada sesión:
 
 \-Discutiremos y aclararemos dudas.
 
-### Cuándo?
+### ¿Cuándo?
 
 Los eventos serán cada dos semanas los jueves a las 6:30 pm.
 
@@ -158,7 +158,7 @@ Sonia Mendizabal
 
 <td style="text-align:left;">
 
-1635811200
+2021-02-04
 
 </td>
 
@@ -181,7 +181,7 @@ NA
 </table>
 
 Inscríbete para presentar
-[**aquí**](https://docs.google.com/spreadsheets/d/1kIHCa9IjDwmnVcykW12t73Nb7xwb_YJcxXVzi-GlKJw/edit#gid=0)
+[**aquí**](https://docs.google.com/spreadsheets/d/1KY4rK6Ky8jJIW4czZMkGxpR9v0Le169ibcGxXdRK_zc/edit?usp=sharing)
 
 <a href="https://github.com/RLadiesMX/club-lectura-advr"> </i>  </a><br>
 
