@@ -53,6 +53,7 @@ data %>%
 ```{r, echo=FALSE}
 data %>% 
 filter(!is.na(Presenta)) %>% 
+  select(-`Descripción`) %>% 
   mytable() %>% 
   row_spec(0, bold = T, color = " white", background = "#562457")
 ```
